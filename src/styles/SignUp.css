@@ -1,0 +1,108 @@
+.form-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    padding: 10px 50px;
+}
+/* form{
+    width: 36vh;
+} */
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.heading-container{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+   
+    justify-content:flex-start;
+    
+}
+.heading-container h4{
+    font-weight: 700;
+    font-size: 20px;
+    align-self: flex-start;
+    margin-bottom: 20px;
+    justify-self: flex-start;
+}
+.main-heading{
+    font-size: 47px;
+    align-self: flex-start;
+    justify-self: flex-start;
+    font-weight: 700;
+}
+.canSignIn{
+    display: flex;
+    gap: 20px;
+}
+.canSignIn p{
+    opacity: 60%;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+label{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 277px;
+    
+    border-bottom: 2px solid;
+}
+input{
+    opacity: 100%;
+    border: none;
+        background: none;
+    box-shadow: 2px rosybrown;
+}
+
+.btn-container{
+    margin-top: 20px;
+}
+.signup-btn{
+    width: 250px;
+    height: 55px;
+    background-color:black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.btn-container p{
+    opacity: 60%;
+    margin: 20px;
+}
+.via-number{
+    width: 250px;
+    height: 55px;
+    background-color:white;
+    border: none;
+    color: black;
+    outline: 2px solid black;
+    border-radius: 10px;
+}
+/* .selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 200vh;
+    height: 100vh;
+    position: relative;
+    padding: 0px 40px;
+    gap: 90px;
+}
+.selection:before{
+position: absolute;
+        background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v868-sasi-06.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=4ade2163bbe65f9e94a3bcf8067e70bc");
+} */

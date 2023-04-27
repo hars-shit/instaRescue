@@ -1,0 +1,89 @@
+/* .container-fluid{
+    background-color: rgb(204, 207, 205);
+} */
+.category{
+    display: flex;
+    justify-self: center;
+    gap: 10px;
+    width: 340px;
+}
+.navbar-toggler{
+    outline: none;
+    border: none;
+}
+.city-loc{
+   border: 1px solid;
+   border-radius: 5px;
+    outline: 0;
+}
+input:nth-child(1){
+    max-width: 180px;
+}
+
+select:focus-visible{
+    background-color: rgb(181, 183, 185);
+}
+.card-container{
+    margin-top: 7rem;
+    /* background-color: blue; */
+  
+}
+.offcanvas-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(204, 207, 205);
+}
+.offcanvas-body ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 60px;
+}
+.offcanvas-body ul li {
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 2px solid;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+}
+.offcanvas-body ul li:nth-child(3){
+    font-size: 25px;
+    opacity: 80%;
+}
+select {
+    width: 190px;
+}
+
+.nav-btn{
+    display: flex;
+    gap: 120px;
+    align-self: flex-start;
+}
+.nav-btn button{
+    outline: 1px solid;
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(43, 26, 26);
+    color: white;
+    
+}
+.nav-elements{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.nav-elements li{
+    width:20vh;
+}
+.nav-elements li svg{
+    margin-right: 20px;
+}
+
